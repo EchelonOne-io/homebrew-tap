@@ -1,9 +1,9 @@
 cask "jimothy" do
   arch arm: "-arm64"
 
-  version "0.2.6"
-  sha256 arm:   "ac4efa5ecbf4ee915a60036ae8aece3fe978d7582088dd3a5161e4b06e2ecd6f",
-         intel: "1fb5e79045a0a48c58ffb8f27ee4d813283242fca0a4ff98a1c7af9dcbc12111"
+  version "0.3.0"
+  sha256 arm:   "6ce534c5286af68204135579becfc87aac2597078a1161e8569b2e4c364c2aef",
+         intel: "a6faf39bf8d2025ca48dc52029501b407dc4c8457c10aab44e7c441df11905ef"
 
   url "https://downloads.jimothy.dev/releases/v#{version}/Jimothy-#{version}#{arch}.dmg"
   name "Jimothy"
